@@ -5,13 +5,46 @@ layout: layouts/default.njk
 <header class="header">
   <div class="container">
     <h1 class="header__title">HeySugar.</h1>
-    <h2>
-      HeySugar is a blood sugar management application for type one and type
-      two diabetics, developed with Jamstack.
-    </h2>
   </div>
 </header>
 
-<main>
-  <div class="container"></div>
+<main class="main">
+  <div class="container">
+    <h2 class="main__subtitle">What is HeySugar?</h2>
+
+    <p>
+      HeySugar is an open-source, self hosted, blood sugar management application for type one and type
+      two diabetics. HeySugar is developed with Jamstack and is made up of two
+      separate applications:
+
+      <ul>
+        <li>An front end to display blood sugar results</li>
+        <li>An application to log blood readings and update the website</li>
+      </ul>
+    </p>
+
+    <p>
+      The front end is developed with Gatsby and the core functionality is
+      passed into a Gatsby website through our
+      <a href="https://www.npmjs.com/package/@hey-sugar/gatsby-theme-heysugar" target="_blank">Gatsby Theme</a>
+      which means we can release patches and enhancements to users via NPM.
+    </p>
+
+    <p>
+      The blood tracking application has been developed with <a href="https://sanity.io" target="_blank">Sanity</a>.
+      This means you will need to create an account on the Sanity platform in order to use HeySugar. But don't worry!
+      We also created a <a href="https://www.npmjs.com/package/@hey-sugar/sanity-plugin-hey-sugar-schema" target="_blank">Sanity plugin</a>
+      to take care of this for you. Just like the Gatsby Theme, any changes we make to the Sanity Schema will be published
+      through this plugin. This means you won't need to make any changes to the Sanity system,
+      unless you want to customise your own instance of HeySugar.
+    </p>
+
+    <h3 class="main__subtitle">Want to Get Started?</h3>
+
+    <p>
+      Head over to our <a href="/documentation">documentation</a> for information on getting started and don't forget,
+      if you experience any problems then <a href="https://github.com/HeySugar/hey-sugar-app" target="_blank">raise an issue on our github</a>.
+      Better yet, if you want to contribute then Pull Requests are welcome!
+    </p>
+  </div>
 </main>

@@ -1,0 +1,36 @@
+/**
+ * Main Module
+ * To be used with the <main> element and should include
+ * the core content, excluding the main <header>
+ * and <footer>
+ */
+
+.main {
+  .main__subtitle {
+    font-size: 2.25rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 3.5rem;
+    }
+  }
+
+  p,
+  ul {
+    font-size: 1.5rem;
+    line-height: 1.35;
+
+    @media screen and (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  a {
+    color: $purple-dark;
+
+    &:hover {
+      color: $purple;
+    }
+  }
+}

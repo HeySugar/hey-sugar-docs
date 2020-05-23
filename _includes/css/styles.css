@@ -330,6 +330,7 @@ body {
  * Modules
  * 1. Header Module
  * 2. Footer Module
+ * 3. Main Module
  */
 /**
  * Header element, used to display the main site
@@ -343,6 +344,21 @@ body {
     @media screen and (min-width: 768px) {
       .header .header__title {
         font-size: 6rem; } }
+  .header .header__subtitle {
+    font-size: 2.25rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem; }
+    @media screen and (min-width: 768px) {
+      .header .header__subtitle {
+        font-size: 3.5rem; } }
+  .header .header__list,
+  .header .header__lede {
+    font-size: 1.5rem;
+    line-height: 1.35; }
+    @media screen and (min-width: 768px) {
+      .header .header__list,
+      .header .header__lede {
+        font-size: 2rem; } }
   .header .header__back-link {
     font-size: 1.5rem; }
     .header .header__back-link a {
@@ -356,6 +372,34 @@ body {
 .footer {
   padding: 40px 0;
   text-align: center; }
+
+/**
+ * Main Module
+ * To be used with the <main> element and should include
+ * the core content, excluding the main <header>
+ * and <footer>
+ */
+.main .main__subtitle {
+  font-size: 2.25rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 768px) {
+    .main .main__subtitle {
+      font-size: 3.5rem; } }
+
+.main p,
+.main ul {
+  font-size: 1.5rem;
+  line-height: 1.35; }
+  @media screen and (min-width: 768px) {
+    .main p,
+    .main ul {
+      font-size: 2rem; } }
+
+.main a {
+  color: #7d55db; }
+  .main a:hover {
+    color: #9473e2; }
 
 /**
  * Objects
