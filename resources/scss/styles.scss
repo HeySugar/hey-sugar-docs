@@ -1,0 +1,43 @@
+/* 11ty Endeavour Starter */
+@import "./normalize";
+
+@import url("https://rsms.me/inter/inter.css");
+
+/**
+ * Confg
+ * 1. SCSS Variables
+ */
+
+@import "./config/_variables.scss";
+
+/**
+ * Base Elements
+ * 1. HTML Element
+ * 2. Body Element
+ */
+
+@import "./base/html";
+@import "./base/body";
+
+/**
+ * Modules
+ * 1. Header Module
+ * 2. Footer Module
+ */
+
+@import "./modules/header";
+@import "./modules/footer";
+
+/**
+ * Objects
+ * 1. Container Object
+ */
+
+@import "./objects/container";
+
+/**
+ * Components
+ * 1. Card Component
+ */
+
+@import "./components/card";

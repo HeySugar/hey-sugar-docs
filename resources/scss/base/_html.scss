@@ -1,0 +1,7 @@
+html {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  @supports (font-variation-settings: normal) {
+    font-family: "Inter var", "Helvetica Neue", Arial, sans-serif;
+  }
+}

@@ -1,0 +1,29 @@
+/**
+ * Header element, used to display the main site
+ * title.
+ */
+
+.header {
+  padding: 24px 0;
+
+  .header__title {
+    color: $purple;
+    font-size: 3rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 6rem;
+    }
+  }
+
+  .header__back-link {
+    font-size: 1.5rem;
+
+    a {
+      text-decoration: none;
+    }
+
+    a:active {
+      color: $purple;
+    }
+  }
+}
