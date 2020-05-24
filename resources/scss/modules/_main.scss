@@ -6,13 +6,27 @@
  */
 
 .main {
-  .main__subtitle {
+  h1,
+  h2,
+  h3 {
     font-size: 2.25rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
 
     @media screen and (min-width: 768px) {
       font-size: 3.5rem;
+    }
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 2.75rem;
     }
   }
 
@@ -26,11 +40,19 @@
     }
   }
 
+  p:last-of-type {
+    margin-top: 0;
+  }
+
   a {
     color: $purple-dark;
 
     &:hover {
       color: $purple;
     }
+  }
+
+  pre {
+    margin-top: 3rem;
   }
 }
