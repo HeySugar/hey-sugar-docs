@@ -9,4 +9,8 @@
 }
 ---
 
-The documentation page.
+## Contents
+
+- [Getting Started](/documentation/getting-started)
+  - [Pre Requisites](/documentation/getting-started#pre-requisites)
+  - [Deploy!](/documentation/getting-started#deploy)
