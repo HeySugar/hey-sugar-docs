@@ -3,14 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeySugar | Diabetes Management with Jamstack</title>
+    <title>HeySugar | {% if title %}{{title}}{% else %}Diabetes Management with Jamstack{% endif %}</title>
     <meta name="Description" content="Site description">
 
     <style>{% include "css/styles.css" %}</style>
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        {% if backLink %}
+        <p class="header__back-link">
+          <a href="{{ backLink.path }}">← {{ backLink.title }}</a>
+        </p>
+        {% endif %}
+        <h1 class="header__title">{{ title }}</h1>
+      </div>
+    </header>
+
     {# Main Section [Content] #}
-    {{ content | safe }}
+    <main class="main">
+      <div class="container">
+        {{ content | safe }}
+      </div>
+    </main>
 
     <footer class="footer">
       <div class="container">
