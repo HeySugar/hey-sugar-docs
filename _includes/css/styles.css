@@ -392,14 +392,14 @@ a {
 .main h1,
 .main h2,
 .main h3 {
-  font-size: 2.25rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 768px) {
     .main h1,
     .main h2,
     .main h3 {
-      font-size: 3.5rem; } }
+      font-size: 2.5rem; } }
 
 .main h4,
 .main h5,
@@ -415,12 +415,13 @@ a {
 
 .main p,
 .main ul {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.35; }
   @media screen and (min-width: 768px) {
     .main p,
     .main ul {
-      font-size: 2rem; } }
+      font-size: 1.5rem;
+      line-height: 1.5; } }
 
 .main p:first-of-type,
 .main p:last-of-type {
