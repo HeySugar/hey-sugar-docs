@@ -20,7 +20,14 @@ Before getting started, please make sure you have the following.
 
 - A [Netlify Account](https://netlify.com)
 - A [Sanity Account](https://sanity/io)
+- A [Github Account](https://github.com)
 
 ### Getting Started with Sanity
 
 Sanity is a system designed for creating and managing structured content. We will be using Sanity to store your blood sugar test results. You will also use Sanity to create, modify and delete results.
+
+### Deploying your HeySugar Website
+
+Click the [Deploy to Netlify Button](https://app.netlify.com/start/deploy?repository=https://github.com/HeySugar/hey-sugar-app)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/HeySugar/hey-sugar-app)
