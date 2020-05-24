@@ -313,7 +313,7 @@ template {
  * SCSS Variables
  */
 /**
- * Base Elements
+ * Base Styles
  * 1. HTML Element
  * 2. Body Element
  */
@@ -325,6 +325,15 @@ html {
 
 body {
   background-color: #fefefe; }
+
+/**
+ * Element Styles
+ */
+a {
+  color: #7d55db;
+  text-decoration: underline; }
+  a:hover {
+    color: #9473e2; }
 
 /**
  * Modules
@@ -340,7 +349,8 @@ body {
   padding: 24px 0; }
   .header .header__title {
     color: #9473e2;
-    font-size: 3rem; }
+    font-size: 3rem;
+    margin-bottom: 1.5rem; }
     @media screen and (min-width: 768px) {
       .header .header__title {
         font-size: 6rem; } }
@@ -412,6 +422,7 @@ body {
     .main ul {
       font-size: 2rem; } }
 
+.main p:first-of-type,
 .main p:last-of-type {
   margin-top: 0; }
 
@@ -422,6 +433,25 @@ body {
 
 .main pre {
   margin-top: 3rem; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem; }
+  .navigation .navigation__list {
+    display: flex;
+    list-style-type: none; }
+  .navigation .navigation__list-item {
+    margin: 0 1.5rem; }
+    .navigation .navigation__list-item:last-of-type {
+      margin-right: 0; }
+  .navigation .navigation__logo,
+  .navigation .navigation__link {
+    font-weight: 600;
+    text-decoration: none; }
+  .navigation .navigation__link {
+    font-size: 1.25rem; }
 
 /**
  * Objects
@@ -628,3 +658,9 @@ pre[class*="language-"] {
 
 .highlight-line-remove {
   background-color: #902f2f; }
+
+.logo {
+  color: #7d55db;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0; }

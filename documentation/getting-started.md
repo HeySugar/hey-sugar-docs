@@ -1,11 +1,6 @@
 ---json
 {
-  "layout": "layouts/default.njk",
-  "title": "Getting Started",
-  "backLink": {
-    "path": "/documentation",
-    "title": "Docs"
-  }
+  "layout": "layouts/default.njk"
 }
 
 ---

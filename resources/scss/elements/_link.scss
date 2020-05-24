@@ -1,0 +1,8 @@
+a {
+  color: $purple-dark;
+  text-decoration: underline;
+
+  &:hover {
+    color: $purple;
+  }
+}

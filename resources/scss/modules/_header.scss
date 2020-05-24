@@ -9,6 +9,7 @@
   .header__title {
     color: $purple;
     font-size: 3rem;
+    margin-bottom: 1.5rem;
 
     @media screen and (min-width: 768px) {
       font-size: 6rem;

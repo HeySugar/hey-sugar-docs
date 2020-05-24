@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  .navigation__list {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .navigation__list-item {
+    margin: 0 1.5rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .navigation__logo,
+  .navigation__link {
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .navigation__link {
+    font-size: 1.25rem;
+  }
+}
