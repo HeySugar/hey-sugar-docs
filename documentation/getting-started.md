@@ -21,7 +21,7 @@ Before getting started, please make sure you have the following.
 
 **Why do I need to sign up to these services?**
 
-If you register with Github then you can also use your Github account to register an account with Sanity and Netlify (which might make things easier for you). To simplify deployments, we have provided you with a "one-click deplyoment" feautre using [Netlify's Deploy Button](https://www.netlify.com/blog/2016/11/29/introducing-the-deploy-to-netlify-button/). This button will create a Github repository, connect it to Netlify and deploy your instance of HeySugar with a single click. This feature requires a Github account. You don't have to follow this option, but it will speed up the process of getting started!
+If you register with Github then you can also use your Github account to register an account with Sanity and Netlify (which might make things easier for you). To simplify deployments, we will eventually integrate HeySugar with [Sanity's Create Tool](https://sanity.io/create). This service will create a Github repository, connect it to Netlify and deploy your instance of HeySugar with a single click. This feature requires a Github account. You won't have to follow this option, but it will speed up the process of getting started!
 
 We have decided to use Netlify as our chosen hosting solution for your website. You don't have to use Netlify to host your HeySugar website. But using Netlify is certainly one of the quicker and easier ways to get started.
 
