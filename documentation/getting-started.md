@@ -17,7 +17,7 @@ Before getting started, please make sure you have the following.
 
 - A [Github Account](https://github.com)
 - A [Netlify Account](https://netlify.com)
-- A [Sanity Account](https://sanity/io)
+- A [Sanity Account](https://sanity.io)
 
 **Why do I need to sign up to these services?**
 
