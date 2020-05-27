@@ -21,7 +21,7 @@ Before getting started, please make sure you have the following.
 
 **Why do I need to sign up to these services?**
 
-If you register with Github then you can also use your Github account to register an account with Sanity and Netlify (which might make things easier for you). To simplify deployments, we have provided you with a "one-click deplyoment" feautre using [Netlify's Deploy Button](https://www.netlify.com/blog/2016/11/29/introducing-the-deploy-to-netlify-button/). This button will create a Github repository, connect it to Netlify and deploy your instance of HeySugar with a single click. This feature requires a Github account. You don't have to follow this option, but it will speed up the process of getting started!  
+If you register with Github then you can also use your Github account to register an account with Sanity and Netlify (which might make things easier for you). To simplify deployments, we have provided you with a "one-click deplyoment" feautre using [Netlify's Deploy Button](https://www.netlify.com/blog/2016/11/29/introducing-the-deploy-to-netlify-button/). This button will create a Github repository, connect it to Netlify and deploy your instance of HeySugar with a single click. This feature requires a Github account. You don't have to follow this option, but it will speed up the process of getting started!
 
 We have decided to use Netlify as our chosen hosting solution for your website. You don't have to use Netlify to host your HeySugar website. But using Netlify is certainly one of the quicker and easier ways to get started.
 
@@ -31,14 +31,7 @@ Sanity is a system designed for creating and managing structured content. We wil
 
 ### Deploy!
 
-**The quick way**
+The following video will show you how to deploy and get started with HeySugar.
 
-The following video will show you how to get started with the Deploy to Netlify option. When you're ready, click the button below to deploy your instance of HeySugar.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/HeySugar/hey-sugar-app)
-
-*If you can't see the button then [click here](https://app.netlify.com/start/deploy?repository=https://github.com/HeySugar/hey-sugar-app)*
-
-**The not so quick way**
-
-*Coming soon...*
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/U2MVInNkJMk' frameborder='0' allowfullscreen></iframe></div>
